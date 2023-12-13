@@ -71,14 +71,14 @@ $celadonLightGreen: rgb(201, 255, 226);
 
 
 
-// Basic style to BODY
+// BODY-------------------------------------------
 body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
   }
   
-  /* Style for DESIGNERS-CONTAINER */
+// DESIGNERS-CONTAINER----------------------------
   .designers-container {
     display: flex;
     flex-wrap: wrap;
@@ -87,7 +87,7 @@ body {
     background-color: $horizonGreen;
   }
   
-  /* Style for DESIGNER-CARD */
+//DESIGNER-CARD-------------------------------------
   .designer-card {
     background-color: $coolGrey;
     border: 1px solid $horizonGreen;
@@ -103,34 +103,40 @@ body {
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
   
+//PICTURE-----------------------------------------------
     .photo {
       width: 100%;
       height: auto;
       border-bottom: 1px solid #ddd;
     }
   
+    //NAME-----------------------------------------------
     .name {
       font-size: 1.5em;
       margin: 10px 0;
       padding-left: 15px;
     }
   
+    //NATIONALITY-----------------------------------------
     .country {
       font-size: 1em;
       color: $SepiaGreen;
       margin: 5px 0;
     }
   
+    //SPE--------------------------------------------------
     .skills {
       font-size: 0.9em;
       margin: 10px 0;
     }
   
+    //UL----------------------------------------------------
     .allLinks {
       list-style: none;
       padding: 0;
       margin: 10px 0;
   
+      //LI---------------------------------------------------
       .link {
         a {
           color: $nightBlue;
@@ -142,6 +148,7 @@ body {
       }
     }
   
+    //DETAILS-------------------------------------------------
     .about {
       font-size: 0.9em;
       color: #555;

@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
       name: "Virgil Abloh",
       nationality: "American",
-      picture: '',
+      picture: 'assets/img/virgil-abloh.avif',
       spe: ["Founder of Off-White™", "Artistic Director of Louis Vuitton"],
       discipline: ["Fashion", "retail", "footwear", "design"],
       details: "En 2020, le designer Virgil Abloh a étendu son influence omniprésente dans la mode streetwear et le luxe, marquant des collaborations majeures avec des marques mondiales telles que Mercedes-Benz, la NBA, et NIGO, tout en continuant ses partenariats notables avec Nike et Jordan Brand.",
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
       name: "Kim Jones",
       nationality: "Anglais",
-      picture: "",
+      picture: "assets/img/kim-jones.avif",
       spe: ["Artistic Director at Dior Menswear", "Artistic Director at FENDI Women"],
       discipline: "Fashion",
       details: "Kim Jones, directeur artistique de Dior Men, a marqué l'année 2020 en intégrant l'influence streetwear, orchestrant des collaborations notables avec KAWS et Hajime Sorayama, et créant la très convoitée Dior x Air Jordan 1, alimentant un engouement mondial.",
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
       name: "Jerry Lorenzo",
       nationality: "American",
-      picture: "link/to/a/picture",
+      picture: "assets/img/jerry-lorenzo.avif",
       spe: ["Founder and Designer of Fear of God"],
       discipline: ["Fashion", "retail", "footwear"],
       details: "Jerry Lorenzo, fondateur de Fear of God, maintient son élan novateur avec des créations de vêtements raffinées et des collaborations notables, dont un partenariat sophistiqué avec le designer de costumes italien Ermenegildo Zegna, tandis que sa collaboration continue avec Nike a abouti à la sortie très prisée de l'Air Fear of God 1 en 2020.",
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
       name: "Matthew M. Williams",
       nationality: "American",
-      picture: "link/to/a/picture",
+      picture: "assets/img/matthew-williams.avif",
       spe: ["Co-Founder of 1017 ALYX 9SM", "Creative Director at Givenchy"],
       discipline: ["Fashion", "retail"],
       details: "Matthew Williams, co-fondateur d'ALYX devenu directeur artistique de Givenchy, navigue stratégiquement dans le monde de la mode avec une esthétique rebelle et technique, obtenant des soutiens de célébrités et assumant avec succès la direction créative de Givenchy avec une impressionnante collaboration d'A-listers.",
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
       name: "Hiroshi Fujiwara",
       nationality: "Japanese",
-      picture: "link/to/a/picture",
+      picture: "assets/img/hiroshi-fujiwara.avif",
       spe: ["Founder of Fragment design", "Musician"],
       discipline: ["Fashion", "music", "design"],
       details: "Hiroshi Fujiwara, fondateur de fragment design, a marqué l'année 2020 avec des collaborations notables, notamment une collection de chaussures avec Jordan Brand, tout en continuant son travail avec Moncler Genius et publiant un nouveau livre rétrospectif avec Rizzoli.",
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
       name: "KAWS (Brian Donnelly)",
       nationality: "American",
-      picture: "link/to/a/picture",
+      picture: "assets/img/kaws.avif",
       spe: "Artist",
       discipline: ["Fashion", "design", "art"],
       details: "KAWS, the renowned artist, demonstrated his impact beyond the art world in 2020 by actively contributing to social causes, releasing figures in support of Black Lives Matter, participating in a fundraiser for Joe Biden's campaign, and advocating for the USPS, while also showcasing his largest statue in the exhibition KAWS: COMPANIONSHIP IN THE AGE OF LONELINESS and engaging in collaborations with musicians Kid Cudi and Travis Scott, as well as releasing children's sunglasses with Sons + Daughters.",
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
       name: "Ronnie Fieg",
       nationality: "American",
-      picture: "link/to/a/picture",
+      picture: "assets/img/ronnie-fieg.avif",
       spe: ["Founder of KITH", "Creative director at N-Y Knicks"],
       discipline: ["Fashion", "retail"],
       details: "Ronnie Fieg, fondateur de Kith, s'affirme comme le roi des collaborations en 2020, allant de partenariats avec des icônes de la culture pop, tels que The Godfather, Bugs Bunny, et Coca-Cola, à la création d'une édition limitée de la BMW M4 competition coupe, soulignant son talent à générer l'engouement pour sa marque par des collaborations diversifiées.",
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
       name: "Daniel Arsham",
       nationality: "American",
-      picture: "link/to/a/picture",
+      picture: "assets/img/daniel-arsham.avif",
       spe: ["Artist", "Creative director at Cleveland Cavaliers"],
       discipline: ["Fashion", "art"],
       details: "Daniel Arsham, travailleur acharné de l'art, a marqué 2020 en révélant régulièrement de nouveaux projets sur les réseaux sociaux, touchant divers secteurs tels que la mode, le sport, le divertissement et la musique, avec des expositions notables comme -Paris, 3020- et -Relics of Kanto Through Time- sur l'univers Pokémon, des collaborations avec Kim Jones et Dior, des créations inspirées par Porsche, et l'annonce de sa nomination en tant que directeur créatif des Cleveland Cavaliers.",
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
       name: "NIGO (Tomohisa Yamashita)",
       nationality: "Japanese",
-      picture: "link/to/a/picture",
+      picture: "assets/img/nigo.avif",
       spe: "Founder of Human Made",
       discipline: ["Fashion", "retail", "design"],
       details: "NIGO, un des pionniers originaux du streetwear, maintient son influence dans la mode, la chaussure et la musique en 2020, marquant des collaborations notables avec Girls Don't Cry, Virgil Abloh pour Louis Vuitton, et lançant des chaussures vibrantes et des capsules HUMAN MADE.",
@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
       name: "Simon Porte Jacquemus",
       nationality: "French",
-      picture: "link/to/a/picture",
+      picture: "assets/img/simon-porte-jacquemus.avif",
       spe: ["Founder and Designer of Jacquemus"],
       discipline: "Fashion",
       details: "Simon Porte Jacquemus, connu pour sa mode naïve caractérisée par des créations spontanées et sans effort, a marqué l'année 2020 en continuant à façonner l'esthétique de sa marque malgré les défis de la COVID-19, notamment avec des défilés innovants comme la présentation SS21 au milieu d'un champ d'orge près de Paris, soulignant l'importance de l'expérience dans sa vision créative.",
@@ -102,7 +102,13 @@ document.addEventListener('DOMContentLoaded', function () {
   collection.forEach(designer => {
     // Créer une <section> pour chaque designer
     const designerCard = document.createElement('section');
-    designerCard.classList.add('designer-card'); // Ajouter des classes si nécessaire
+    designerCard.classList.add('designer-card');
+
+    // Créer une <img> pour l'IMAGE 
+    const imageElement = document.createElement('img');
+    imageElement.classList.add('photo');
+    // imageElement.src = src;----------------------- PROBLEME AVEC CETTE LIGNE ---------------------------
+    designerCard.appendChild(imageElement);
 
     // Créer un  <h2> pour NAME
     const nameElement = document.createElement('h2');
@@ -113,21 +119,13 @@ document.addEventListener('DOMContentLoaded', function () {
     // Créer un <h4> pour la NATIONALITE
     const nationalityElement = document.createElement('h4');
     nationalityElement.classList.add('country');
-    nationalityElement.textContent = `Nationality: ${designer.nationality}`;
+    nationalityElement.textContent = designer.nationality;
     designerCard.appendChild(nationalityElement);
-
-
-    // Créer une <img> pour l'IMAGE 
-    const imageElement = document.createElement('img');
-    imageElement.classList.add('img');
-    // imageElement.url();
-    designerCard.appendChild(imageElement);
-
 
     // Créer un <article> pour les SPE 
     const speElement = document.createElement('article');
     speElement.classList.add('skills');
-    speElement.textContent = `Specialties: ${designer.spe.join(', ')}`;
+    speElement.textContent = designer.spe;
     designerCard.appendChild(speElement);
 
 

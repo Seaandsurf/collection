@@ -58,7 +58,6 @@ body {
   font-family: "Arial", sans-serif;
 }
 
-/* Style for DESIGNERS-CONTAINER */
 .designers-container {
   display: flex;
   flex-wrap: wrap;
@@ -67,7 +66,6 @@ body {
   background-color: rgb(154, 209, 212);
 }
 
-/* Style for DESIGNER-CARD */
 .designer-card {
   background-color: rgb(204, 219, 220);
   border: 1px solid rgb(154, 209, 212);

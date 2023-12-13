@@ -93,43 +93,43 @@ document.addEventListener('DOMContentLoaded', function () {
   ];
 
 
-  // Ajouter les cartes
+  // Ajouter les cartes----------------------------------------------
   const designersCard = document.createElement('section');
   designersCard.className = 'designers-container';
   document.body.appendChild(designersCard);
 
-  // Parcourir la collection et créer les cartes HTML
+  // Parcourir la collection et créer les cartes HTML----------------
   collection.forEach(designer => {
-    // Créer une <section> pour chaque designer
+    // Créer une <section> pour chaque designer---------------------
     const designerCard = document.createElement('section');
     designerCard.classList.add('designer-card');
 
-    // Créer une <img> pour l'IMAGE 
+    // Créer une <img> pour IMAGE ---------------------------------
     const imageElement = document.createElement('img');
     imageElement.classList.add('photo');
     // imageElement.src = src;----------------------- PROBLEME AVEC CETTE LIGNE ---------------------------
     designerCard.appendChild(imageElement);
 
-    // Créer un  <h2> pour NAME
+    // Créer un  <h2> pour NAME--------------------------------------
     const nameElement = document.createElement('h2');
     nameElement.classList.add('name');
     nameElement.textContent = designer.name;
     designerCard.appendChild(nameElement);
 
-    // Créer un <h4> pour la NATIONALITE
+    // Créer un <h4> pour NATIONALITY----------------------------
     const nationalityElement = document.createElement('h4');
     nationalityElement.classList.add('country');
     nationalityElement.textContent = designer.nationality;
     designerCard.appendChild(nationalityElement);
 
-    // Créer un <article> pour les SPE 
+    // Créer un <article> pour SPE-------------------------------
     const speElement = document.createElement('article');
     speElement.classList.add('skills');
     speElement.textContent = designer.spe;
     designerCard.appendChild(speElement);
 
 
-    // Créer une <ul> <li> pour LINKS
+    // Créer une <ul> <li> pour LINKS-----------------------------
     const linksList = document.createElement('ul');
     linksList.classList.add('allLinks');
     if (Array.isArray(designer.links)) {
@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     designerCard.appendChild(linksList);
 
-    // Créer un <p> pour DETAILS
+    // Créer un <p> pour DETAILS------------------------------------
     const detailsElement = document.createElement('p');
     detailsElement.classList.add('about');
     detailsElement.textContent = designer.details;

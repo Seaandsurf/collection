@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
       name: "Virgil Abloh",
       nationality: "American",
-      picture: 'assets/img/virgil-abloh.avif',
+      picture: 'assets/img/virgil-abloh.jpg',
       spe: ["Founder of Off-White™", "Artistic Director of Louis Vuitton"],
       discipline: ["Fashion", "retail", "footwear", "design"],
       details: "En 2020, le designer Virgil Abloh a étendu son influence omniprésente dans la mode streetwear et le luxe, marquant des collaborations majeures avec des marques mondiales telles que Mercedes-Benz, la NBA, et NIGO, tout en continuant ses partenariats notables avec Nike et Jordan Brand.",
@@ -106,8 +106,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Créer une <img> pour IMAGE ---------------------------------
     const imageElement = document.createElement('img');
-    imageElement.classList.add('photo');
-    // imageElement.src = src;----------------------- PROBLEME AVEC CETTE LIGNE ---------------------------
+     imageElement.classList.add('photo');
+     imageElement.src = designer.picture; //`url(${designer.picture})`; //----------------------- PROBLEME AVEC CETTE LIGNE ---------------------------
     designerCard.appendChild(imageElement);
 
     // Créer un  <h2> pour NAME--------------------------------------

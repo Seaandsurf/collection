@@ -1,0 +1,343 @@
+//  RESET-----------------------------------------
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+//  RESET-----------------------------------------
+
+// MIXIN-------------------------------------------
+@mixin padding-text($padding-left, $padding-right, $padding-bottom) {
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+
+@mixin title-shadow($color) {
+  text-shadow: .55rem .55rem $color;
+}
+
+// MIXIN-------------------------------------------
+
+
+//COLOR STYLE BLUE-------------------------------
+$coolGrey: rgb(204, 219, 220);
+$horizonGreen: rgb(154, 209, 212);
+$holydayBlue: rgb(128, 206, 215);
+$nightBlue: rgb(0, 126, 167);
+$coolBlue: rgb(0, 50, 73);
+//COLOR STYLE GREEN-------------------------------
+$SepiaGreen: rgb(75, 127, 82);
+$parrotGreen: rgb(125, 209, 129);
+$jadeGreen: rgb(150, 232, 188);
+$celadonGreen: rgb(182, 249, 201);
+$celadonLightGreen: rgb(201, 255, 226);
+
+
+
+
+// BODY-------------------------------------------
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;  
+  background-image: url('assets/img/ryan-wilson-YdpDztAnW9w-unsplash.jpg');
+
+}
+
+// HEADER-----------------------------------------
+.head {
+  margin: 0;
+  padding: 0;
+  
+}
+
+// H1---------------------------------------------
+.titre {
+  font-size: 3em;
+  margin: 10px 0;
+  color: $coolBlue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  @include padding-text(-left, -right, -bottom);
+
+}
+
+
+// DESIGNERS-CONTAINER----------------------------
+.designers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background: radial-gradient($SepiaGreen 0%, $nightBlue 99%);
+}
+
+//DESIGNER-CARD-------------------------------------
+.designer-card {
+  background-color: $coolBlue;
+  // border: 1px solid $horizonGreen;
+  border-radius: 8px;
+  // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  //PICTURE-----------------------------------------------
+  .photo {
+    width: 100%;
+    height: auto;
+    // border-bottom: 1px solid #ddd;
+  }
+
+  //NAME-----------------------------------------------
+  .name {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: $horizonGreen;
+    @include padding-text(-left, -right, -bottom);
+  }
+
+  //NATIONALITY-----------------------------------------
+  .country {
+    font-size: 1em;
+    margin: 5px 0;
+    color: $coolGrey;
+    @include padding-text(-left, -right, -bottom);
+  }
+
+  //SPE--------------------------------------------------
+  .skills {
+    font-size: 0.9em;
+    margin: 10px 0;
+    color: $celadonLightGreen;
+    @include padding-text(-left, -right, -bottom);
+  }
+
+  //UL----------------------------------------------------
+  .allLinks {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    @include padding-text(-left, -right, -bottom);
+
+
+    //LI---------------------------------------------------
+    .link {
+      a {
+        color: $nightBlue;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+          color: $jadeGreen;
+          // padding-left: 20px;
+          // padding-right: 10px;
+        }
+      }
+    }
+  }
+
+  //DETAILS-------------------------------------------------
+  .about {
+    font-size: 0.9em;
+    color: $coolGrey;
+    margin: 10px 0;
+    @include padding-text(-left, -right, -bottom);
+  }
+}
+
+// RESPONSIVITY
+
+@media only screen and (max-width: 768px) {
+  .designers-container {
+    padding: 10px;
+  }
+
+  .designer-card {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// body {
+//     display: flex;
+//     flex-direction: row;
+
+
+//     flex-wrap: wrap;
+
+//     &.designers-container {
+//         width: 25%;
+//         height: 25%;
+
+
+//         &.designer-container {
+
+//             background-color: aqua;
+
+//             &.designer-card {
+//                 &.photo {
+//                     background-color: aqua;
+//                 }
+
+//             }
+
+
+
+//         }
+//     }
+// }
